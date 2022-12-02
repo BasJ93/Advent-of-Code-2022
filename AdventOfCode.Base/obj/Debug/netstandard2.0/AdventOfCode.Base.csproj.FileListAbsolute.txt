@@ -1,0 +1,10 @@
+/home/bas/Advent-of-Code-2022/AdventOfCode.Base/bin/Debug/netstandard2.0/AdventOfCode.Base.deps.json
+/home/bas/Advent-of-Code-2022/AdventOfCode.Base/bin/Debug/netstandard2.0/AdventOfCode.Base.dll
+/home/bas/Advent-of-Code-2022/AdventOfCode.Base/bin/Debug/netstandard2.0/AdventOfCode.Base.pdb
+/home/bas/Advent-of-Code-2022/AdventOfCode.Base/obj/Debug/netstandard2.0/AdventOfCode.Base.csproj.AssemblyReference.cache
+/home/bas/Advent-of-Code-2022/AdventOfCode.Base/obj/Debug/netstandard2.0/AdventOfCode.Base.GeneratedMSBuildEditorConfig.editorconfig
+/home/bas/Advent-of-Code-2022/AdventOfCode.Base/obj/Debug/netstandard2.0/AdventOfCode.Base.AssemblyInfoInputs.cache
+/home/bas/Advent-of-Code-2022/AdventOfCode.Base/obj/Debug/netstandard2.0/AdventOfCode.Base.AssemblyInfo.cs
+/home/bas/Advent-of-Code-2022/AdventOfCode.Base/obj/Debug/netstandard2.0/AdventOfCode.Base.csproj.CoreCompileInputs.cache
+/home/bas/Advent-of-Code-2022/AdventOfCode.Base/obj/Debug/netstandard2.0/AdventOfCode.Base.dll
+/home/bas/Advent-of-Code-2022/AdventOfCode.Base/obj/Debug/netstandard2.0/AdventOfCode.Base.pdb

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0/I8Qsz2/AutbjcChi0KZACV61VtOA9F7jUNEVRTO0cOI4zsRxNfIvIkK9piXOzjLMQj4KaK0lGHRakRiJ5HYQ==",
+  "success": true,
+  "projectFilePath": "/home/bas/Advent-of-Code-2022/AdventOfCode.Helpers/AdventOfCode.Helpers.csproj",
+  "expectedPackageFiles": [
+    "/home/bas/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/bas/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
