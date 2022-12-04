@@ -7,25 +7,25 @@ using Xunit;
 
 namespace AdventOfCode2022.Tests;
 
-public class Day3Tests
+public class Day4Tests
 {
     private readonly List<string> _input;
 
     private readonly ISolution _solutionUnderTest;
 
-    public Day3Tests()
+    public Day4Tests()
     {
         _input = new List<string>
         {
-            "vJrwpWtwJgWrhcsFMMfFFhFp",
-            "jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL",
-            "PmmdzqPrVvPwwTWBwg",
-            "wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn",
-            "ttgJtRGJQctTZtZT",
-            "CrZsJsPPZsGzwwsLwLmpwMDw"
+            "2-4,6-8",
+            "2-3,4-5",
+            "5-7,7-9",
+            "2-8,3-7",
+            "6-6,4-6",
+            "2-6,4-8"
         };
 
-        _solutionUnderTest = new Day3();
+        _solutionUnderTest = new Day4();
     }
 
     [Fact]
@@ -38,7 +38,7 @@ public class Day3Tests
 
         // Assert
 
-        Assert.Equal(157, result);
+        Assert.Equal(2, result);
     }
 
     [Fact]
@@ -51,6 +51,6 @@ public class Day3Tests
 
         // Assert
 
-        Assert.Equal(70, result);
+        Assert.Equal(4, result);
     }
 }
