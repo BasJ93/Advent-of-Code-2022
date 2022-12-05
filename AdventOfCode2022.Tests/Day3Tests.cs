@@ -34,11 +34,11 @@ public class Day3Tests
         // Arrange
         // Act
 
-        long result = await _solutionUnderTest.Task1(_input, CancellationToken.None);
+        string result = await _solutionUnderTest.Task1(_input, CancellationToken.None);
 
         // Assert
 
-        Assert.Equal(157, result);
+        Assert.Equal("157", result);
     }
 
     [Fact]
@@ -47,10 +47,10 @@ public class Day3Tests
         // Arrange
         // Act
 
-        long result = await _solutionUnderTest.Task2(_input, CancellationToken.None);
+        string result = await _solutionUnderTest.Task2(_input, CancellationToken.None);
 
         // Assert
 
-        Assert.Equal(70, result);
+        Assert.Equal("70", result);
     }
 }

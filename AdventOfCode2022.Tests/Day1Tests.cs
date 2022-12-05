@@ -36,11 +36,11 @@ public class Day1Tests
 
         ISolution solutionUnderTest = new Day1();
 
-        long result = await solutionUnderTest.Task1(input, CancellationToken.None);
+        string result = await solutionUnderTest.Task1(input, CancellationToken.None);
         
         // Assert
         
-        Assert.Equal(24000, result);
+        Assert.Equal("24000", result);
     }
     
     [Fact]
@@ -70,10 +70,10 @@ public class Day1Tests
 
         ISolution solutionUnderTest = new Day1();
 
-        long result = await solutionUnderTest.Task2(input, CancellationToken.None);
+        string result = await solutionUnderTest.Task2(input, CancellationToken.None);
         
         // Assert
         
-        Assert.Equal(45000, result);
+        Assert.Equal("45000", result);
     }
 }

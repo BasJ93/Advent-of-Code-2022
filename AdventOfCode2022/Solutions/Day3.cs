@@ -38,7 +38,7 @@ public class Day3 : ISolution
         { 'z', 26 }, { 'Z', 52 },
     };
 
-    public async Task<long> Task1(IEnumerable<string> input, CancellationToken ctx)
+    public async Task<string> Task1(IEnumerable<string> input, CancellationToken ctx)
     {
         long totalPriority = 0;
         List<char> doubleItemTypes = new List<char>();
@@ -65,10 +65,10 @@ public class Day3 : ISolution
             totalPriority += _itemTypeValues[itemType];
         }
 
-        return totalPriority;
+        return totalPriority.ToString();
     }
 
-    public async Task<long> Task2(IEnumerable<string> input, CancellationToken ctx)
+    public async Task<string> Task2(IEnumerable<string> input, CancellationToken ctx)
     {
         List<string> inputAsList = input.ToList();
         
@@ -96,6 +96,6 @@ public class Day3 : ISolution
             totalPriority += _itemTypeValues[itemType];
         }
 
-        return totalPriority;
+        return totalPriority.ToString();
     }
 }

@@ -14,13 +14,13 @@ namespace AdventOfCode.Base.Interfaces
         /// </summary>
         /// <param name="input">The puzzle input</param>
         /// <returns>The result as a long</returns>
-        Task<long> Task1(IEnumerable<string> input, CancellationToken ctx);
+        Task<string> Task1(IEnumerable<string> input, CancellationToken ctx);
 
         /// <summary>
         /// Solve the second task of the day.
         /// </summary>
         /// <param name="input">The puzzle input</param>
         /// <returns>The ressult as a long</returns>
-        Task<long> Task2(IEnumerable<string> input, CancellationToken ctx);
+        Task<string> Task2(IEnumerable<string> input, CancellationToken ctx);
     }
 }

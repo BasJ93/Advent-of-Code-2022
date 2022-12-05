@@ -26,7 +26,7 @@ public class Day2 : ISolution
     // Paper is B and Y
     // Scissors is C and Z
 
-    public async Task<long> Task1(IEnumerable<string> input, CancellationToken ctx)
+    public async Task<string> Task1(IEnumerable<string> input, CancellationToken ctx)
     {
         long total = 0;
 
@@ -87,10 +87,10 @@ public class Day2 : ISolution
             }
         }
 
-        return total;
+        return total.ToString();
     }
 
-    public async Task<long> Task2(IEnumerable<string> input, CancellationToken ctx)
+    public async Task<string> Task2(IEnumerable<string> input, CancellationToken ctx)
     {
         long total = 0;
 
@@ -151,6 +151,6 @@ public class Day2 : ISolution
             }
         }
 
-        return total;
+        return total.ToString();
     }
 }

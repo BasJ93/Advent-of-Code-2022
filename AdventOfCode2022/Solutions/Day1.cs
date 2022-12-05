@@ -9,22 +9,22 @@ namespace AdventOfCode2022.Solutions;
 
 public sealed class Day1 : ISolution
 {
-    public async Task<long> Task1(IEnumerable<string> input, CancellationToken ctx)
+    public async Task<string> Task1(IEnumerable<string> input, CancellationToken ctx)
     {
         List<string> inputAsList = input.ToList();
 
         Dictionary<int, long> elvesWithLoad = CalculateCaloryLoad(inputAsList);
 
-        return elvesWithLoad.MaxBy(kvp => kvp.Value).Value;
+        return elvesWithLoad.MaxBy(kvp => kvp.Value).Value.ToString();
     }
 
-    public async Task<long> Task2(IEnumerable<string> input, CancellationToken ctx)
+    public async Task<string> Task2(IEnumerable<string> input, CancellationToken ctx)
     {
         List<string> inputAsList = input.ToList();
 
         Dictionary<int, long> elvesWithLoad = CalculateCaloryLoad(inputAsList);
 
-        return elvesWithLoad.OrderByDescending(kvp => kvp.Value).Select(kvp => kvp.Value).Take(3).Sum();
+        return elvesWithLoad.OrderByDescending(kvp => kvp.Value).Select(kvp => kvp.Value).Take(3).Sum().ToString();
     }
     
     private Dictionary<int, long> CalculateCaloryLoad(List<string> input)

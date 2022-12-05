@@ -9,7 +9,7 @@ namespace AdventOfCode2022.Solutions;
 
 public class Day4 : ISolution
 {
-    public async Task<long> Task1(IEnumerable<string> input, CancellationToken ctx)
+    public async Task<string> Task1(IEnumerable<string> input, CancellationToken ctx)
     {
         long numberOfFullyContainedAssignments = 0;
 
@@ -29,10 +29,10 @@ public class Day4 : ISolution
             }
         }
 
-        return numberOfFullyContainedAssignments;
+        return numberOfFullyContainedAssignments.ToString();
     }
 
-    public async Task<long> Task2(IEnumerable<string> input, CancellationToken ctx)
+    public async Task<string> Task2(IEnumerable<string> input, CancellationToken ctx)
     {
         long numberOfOverlappingAssigments = 0;
 
@@ -48,7 +48,7 @@ public class Day4 : ISolution
             }
         }
 
-        return numberOfOverlappingAssigments;
+        return numberOfOverlappingAssigments.ToString();
     }
 }
 
